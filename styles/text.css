@@ -1,0 +1,65 @@
+p{ /* using it for the para which will have same style */
+    font-style:Roboto;
+    margin-top:0;
+    margin-bottom:0;
+}
+/* Now we make think that thet p{} has mt and mb as 0px where as some classes have specified mt and mb so
+which one will css give more priority it will give priority to the class because it is more specific this
+property is called specifity of css */
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.vid-tit{
+   
+    font-size:18px;
+    font-weight:bold;
+    width:280px;/* using width so that some part
+     of text move to next line as shown in example */
+    line-height:24px; /* using it to adjust the gap between the line*/
+    margin-bottom:5px; /* adjusting the margin below */
+}
+.stat{
+    font-size:14px;
+    color:rgb(96,96,96);
+    margin-top:0; /* removing margin from top as margin is default in p*/
+    margin-bottom:20px;
+}
+.author{
+    font-size:14px;
+    color:rgb(96,96,96);
+    margin-top:0;
+    margin-bottom:20px;
+}
+.des{
+    font-size:14px;
+    color:rgb(96,96,96);
+    width:280px;
+    line-height:22px;
+    margin-top:0;
+    margin-bottom:100px;
+}
+.app{
+    margin-bottom:50px;
+    font-size:14px;
+    background-color:rgb(227,65,64) ;
+    color:white;
+    text-align:center;
+    padding-top:18px;
+    padding-bottom:18px;
+}
+.sp{
+    cursor:pointer;
+    margin-left:5px;
+}
+.sp:hover{
+    text-decoration: underline;
+}

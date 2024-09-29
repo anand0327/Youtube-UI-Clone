@@ -1,0 +1,77 @@
+<button class="s">Stretch</button>
+<button class="sh">Shadow</button>
+<button class="pag">Back</button>
+<a class="n"> 1 2 3 4 5 </a>
+<button class="pag">Next</button>
+<button class="o">One</button>
+<button class="o">Two</button>
+<button class="o">Three</button>
+<style>
+    .o{
+        cursor:pointer;
+        background-color: green;
+        color:white;
+        margin-left: 4px;
+        margin-right: 4px;
+        padding-left: 15px;
+        padding-right:15px;
+        padding-top:8px;
+        padding-bottom: 8px;
+        font-size: 20px;
+        border:none;
+        transition: padding 0.3s,margin 0.3s;
+    }
+    .o:hover{
+        padding-left:25px;
+        padding-right: 25px;
+        margin-left:0px;
+        margin-right: 0px;
+    }
+    .pag{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top:4px;
+        padding-bottom: 4px;
+        cursor:pointer;
+    }
+    .n{
+        color:blueviolet;
+        margin-left:4px;
+        margin-right:4px;
+        cursor:pointer;
+    } 
+    .s{
+        background-color: green;
+        color:white;
+        border:none;
+        font-size:18px;
+        padding-right:15px;
+        padding-left: 15px;
+        padding-top:7.5px;
+        padding-bottom: 7.5px;
+        cursor:pointer;
+        transition: padding 0.5s;
+    }
+    .s:hover{
+        padding-right:36px;
+        padding-left: 36px;
+        padding-top:18px;
+        padding-bottom: 18px;
+    }
+    .sh{
+        background-color: green;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.3 );
+        font-size:18px;
+        color:white;
+        border:none;
+        cursor:pointer;
+        padding-right:15px;
+        padding-left: 15px;
+        padding-top:7.5px;
+        padding-bottom: 7.5px;
+
+    }
+    .sh:active{
+        box-shadow: none;
+    } 
+</style>

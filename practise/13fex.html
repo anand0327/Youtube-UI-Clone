@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>13th Exercise</title>
+        <style>
+            .container{
+                display:flex;
+                width: 400px;
+                border-style: solid;
+                height: 160px;
+                padding-left: 8px;
+                padding-right: 5px;
+                padding-top: 8px;
+                padding-bottom: 5px;
+            }
+            .thumbnail-container{
+                margin-left: 5px;
+                margin-right: 7px;
+            }
+            .thumbnail{
+                width: 60px;
+                height: 60px;
+                border-radius: 30px;
+            }
+            .handle{
+                display:flex;
+                flex:1;
+                margin-bottom:4px;
+            }
+            .username{
+                font-weight: bold;
+                margin-right: 5px;
+            }
+            .youtubelink{
+                display:flex;
+                margin-top: 10px;
+                width:300px;
+                height: 85px;
+                border-style: solid;
+                border-radius: 15px;
+                margin-bottom: 5px;
+            }
+            .void{
+                background-color: rgb(215,215,215);
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                width:120px;
+            }
+            .youtube-desc{
+                padding-left: 10px;
+                padding-right: 5px;
+                padding-top: 8px;
+                padding-bottom: 5px;
+            }
+            .disc{
+                margin-bottom: 3px;
+                color:rgb(112,112,112);
+            }
+            .userhandle{
+                color:rgb(112,112,112);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="thumbnail-container">
+                <img class="thumbnail" src="thbn/cat.jpg">
+            </div>
+            <div class="tweet-box">
+                <div class="handle">
+                    <div class="username">supersimple.dev</div>
+                    <div class="userhandle">@SuperSimpleDev</div>
+                </div>
+                <div class="tweet">
+                    What is backend web development? A complete overview. New video is up!
+                </div>
+                <div class="youtubelink">
+                    <div class="void"></div>
+                    <div class="youtube-desc">
+                        <div class="disc">youtube.com</div>
+                        <div class="info">Backend web development - a complete overview(2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>13E Exercise</title>
+        <style>
+            .container{
+                padding-top: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-style: solid;
+                border-width:0.5px;
+                border-color:rgb(192,192,192);
+                width:400px;
+            }
+            .inbox-label{
+                color:rgb(112,112,112);
+                font-size:12px;
+                margin-top:5px;
+                margin-bottom: 15px;
+                margin-left: 10px;
+            }
+            .email{
+                display:flex;
+                align-items: center;
+                margin-bottom:15px;
+            }
+            .sender-picture-container{
+                margin-right: 10px;
+            }
+            .email-content{
+                flex:1;
+            }
+            .sender-picture{
+                width:60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius:30px;
+            }
+            .email-header{
+                display:flex;
+                justify-content: space-between;
+                /* align-items: center; */
+            }
+
+            .send-time{
+                font-size:15px;
+                color:rgb(112,112,112);
+            }
+            .message{
+                color:rgb(96,96,96);
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="inbox-label">ALL INBOXES</div>
+                <div class="email">
+                    <div class="sender-picture-container">
+                        <img class="sender-picture" src="thbn/cat.jpg">
+                    </div>
+                    <div class="email-content">
+                        <div class="email-header">
+                            <div class="sender-name"><b>Chewy Promotions</b></div>
+                            <div class="send-time">4:58 PM</div>
+                        </div>
+                        <div class="subject"><b>Biggest sales of the year!</b></div>
+                        <div class="message">Hey there! We're writing to tell you about our...</div>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <div class="sender-picture-container">
+                        <img class="sender-picture" src="thbn/dog.jpg">
+                    </div>
+                    <div class="email-content">
+                        <div class="email-header">
+                            <div class="sender-name"><b>Best Buy</b></div>
+                            <div class="send-time">12:32 PM</div>
+                        </div>
+                        <div class="subject"><b>Your Best Buy eReceipt</b></div>
+                        <div class="message">Thank you for shopping at Best Buy, here is...</div>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <div class="sender-picture-container">
+                        <img class="sender-picture" src="thbn/cat2.jpg">
+                    </div>
+                    <div class="email-content">
+                        <div class="email-header">
+                            <div class="sender-name"><b>Netflix</b></div>
+                            <div class="send-time">9:00 AM</div>
+                        </div>
+                        <div class="subject"><b>Here's what's comming soon to Netflix</b></div>
+                        <div class="message">Brand new movies and shows, old favorites...</div>
+                    </div>
+                </div>
+        </div>
+
+    </body>
+</html>

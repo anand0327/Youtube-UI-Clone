@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>15E Exercise</title>
+        <style>
+            .container{
+                position:relative;
+                display:inline-block;
+                /* width: 300px;
+                height: 300px; */
+            }
+            .image{
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+            }
+            .offer{
+                background-color:black;
+                color:white;
+                position: absolute;
+                right:0;
+                top:10px;
+            }
+            .overlay{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.8);
+                bottom:0;
+                left:0;
+                right: 0;
+                height:80px;
+            }
+            .button{
+                background-color: white;
+                border-style:solid ;
+                width:100px;
+                height:30px;
+            }
+        </style>
+    </head>
+    <body style="height:3000px">
+        <div class="container">
+            <img class="image" src="thbn/shirt.jpg">
+            <div class="offer">20% OFF</div>
+            <div class="overlay">
+                <button class="button">Add to Cart</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+p{
+    text-align:center;
+    font-family: Montserrat;
+}
+.h{
+    font-size:30px;
+}
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.montserrat-x{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+  
